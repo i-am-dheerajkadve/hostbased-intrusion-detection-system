@@ -14,7 +14,7 @@ WATCH_DIRS = [
     # "/home/yourusername" # optionally uncomment
 ]
 
-DB_PATH = os.path.expanduser("~/hids_events.db")
+DB_PATH = os.path.expanduser("~ /root/hids_events.db")
 
 # How often (seconds) to sample user activity features
 USER_ACTIVITY_INTERVAL = 10
@@ -31,11 +31,11 @@ IF_PARAMS = {
 
 # Email alerting (optional) - fill if you want SMTP alerts
 SMTP = {
-    "enabled": False,
-    "server": "smtp.example.com",
+    "enabled": True,
+    "server": "smtp.gmail.com",
     "port": 587,
-    "username": "user@example.com",
-    "password": "password",
-    "from_addr": "hids@example.com",
-    "to_addrs": ["admin@example.com"]
+    "username": "dheerajeducation892@gmail.com",
+    "password": "ybgf hqkr rdmt ppoh",
+    "from_addr": "dheerajeducation892@gmail.com",
+    "to_addrs": ["dheerajkadve@gmail.com"]
 }
